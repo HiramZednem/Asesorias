@@ -1,0 +1,53 @@
+.delete-users-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #004080; /* Color de fondo azul oscuro */
+  }
+  
+  .delete-users-box {
+    background-color: #b0b0b0; /* Color de fondo del cuadro de eliminar usuarios */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .delete-users-box h2 {
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .user-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .user-avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #b0b0b0;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  button:hover {
+    background-color: #808080;
+  }
+  

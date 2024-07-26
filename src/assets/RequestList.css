@@ -1,0 +1,66 @@
+.request-list {
+  width: 150%; /* Ajusta según tus necesidades de diseño */
+  max-width: 100vw; /* Asegura que no se expanda más allá del ancho de la ventana de visualización */
+  background-color: #FFFFFF; /* Fondo blanco */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+  margin: 0 auto; /* Centra el div horizontalmente */
+  border: #12121291 1px solid;
+}
+
+.request-list h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333; /* Color de texto oscuro */
+}
+
+.request-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.request-list th,
+.request-list td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #CCCCCC; /* Borde gris claro */
+}
+
+.request-list .action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Añade espacio entre los botones */
+}
+
+.request-list button {
+  padding: 8px 12px;
+  border: 0.5px solid #CCCCCC; /* Borde gris claro */
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #FFFFFF; /* Fondo blanco */
+  color: #333333; /* Texto oscuro */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.request-list button:hover {
+  background-color: #D32F2F; /* Fondo rojo al pasar el ratón */
+  color: #FFFFFF; /* Texto blanco al pasar el ratón */
+}
+
+.request-list tr.highlight td {
+  background-color: #FFEBEE; /* Fondo claro para la fila resaltada */
+}
+
+h5 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #666666; /* Texto gris medio */
+}
+
+.MoverAcciones {
+  display: flex;
+  justify-content: center;
+}

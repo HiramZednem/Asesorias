@@ -1,0 +1,56 @@
+.register-group {
+  width: 140%; /* Ajusta según tus necesidades de diseño */
+  max-width: 100vw; /* Asegura que no se expanda más allá del ancho de la ventana de visualización */
+  background-color: #FFFFFF; /* Fondo blanco */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+  margin: -40px 0 0 -200px; /* Ajusta los márgenes para mover el contenedor */
+  border: #12121291 1px solid;
+}
+  
+.register-group h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333; /* Color de texto oscuro */
+}
+  
+.register-group p {
+  margin-bottom: 20px; /* Espacio debajo del párrafo */
+  line-height: 1.6; /* Ajusta este valor para el espacio entre líneas */
+  font-size: 14px;
+  color: #666666; /* Color de texto gris medio */
+}
+  
+.register-group input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px; /* Espacio debajo de los campos de entrada */
+  border: 1px solid #CCCCCC; /* Borde gris claro */
+  border-radius: 10px; /* Bordes redondeados */
+  background-color: #F9F9F9; /* Fondo gris muy claro */
+  color: #333333; /* Texto oscuro */
+  box-sizing: border-box;
+}
+  
+.register-group label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333333; /* Texto oscuro */
+}
+  
+button {
+  padding: 8px 12px;
+  border: 1px solid #CCCCCC; /* Borde gris claro */
+  border-radius: 10px;
+  background-color: #FFFFFF; /* Fondo blanco */
+  color: #333333; /* Texto oscuro */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+  
+button:hover {
+  background-color: #D32F2F; /* Fondo rojo al pasar el ratón */
+  color: #FFFFFF; /* Texto blanco al pasar el ratón */
+}

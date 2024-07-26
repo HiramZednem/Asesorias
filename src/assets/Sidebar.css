@@ -1,0 +1,112 @@
+.sidebar {
+  width: 250px;
+  background: #bebdbd; /* Fondo gris claro */
+  color: #000000; /* Texto negro */
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1000; /* Asegura que la sidebar esté siempre por encima de otros elementos */
+  border-right: 1px solid #E0E0E0; /* Línea sutil en el borde derecho */
+}
+
+.sidebar-header, .sidebar-section, .sidebar-footer {
+  padding: 20px;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center; /* Alinea verticalmente el logo y el título */
+  flex-direction: row; /* Alinea los elementos en una fila horizontal */
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.title {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333; /* Título en gris oscuro */
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #333333; /* Color del texto de los elementos */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar-item:not(.active):hover, .sidebar-item:not(.asesorias):hover {
+  background-color: #000000;
+  color: #bebdbd;
+}
+
+.sidebar-item.active, .sidebar-item.asesorias {
+  background: #F0F0F0; /* Fondo gris claro para el elemento activo */
+  color: #333333; /* Mantiene el color de texto gris oscuro */
+}
+
+.sidebar-item span {
+  margin-left: 10px;
+}
+
+.icon, .more-info-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.badge {
+  margin-left: auto;
+  background: #D32F2F; /* Rojo para el badge */
+  color: #FFFFFF; /* Texto blanco en el badge */
+  padding: 2px 8px;
+  border-radius: 50%;
+}
+
+.sidebar-footer {
+  padding: 20px;
+  border-top: 1px solid #E0E0E0; /* Línea sutil en el borde superior */
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.user-details {
+  flex-grow: 1;
+}
+
+.user-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333; /* Nombre del usuario en gris oscuro */
+}
+
+.user-email {
+  font-size: 11px;
+  color: #666666; /* Email en gris medio */
+}
+
+.more-info-icon {
+  width: 20px;
+  height: 20px;
+}

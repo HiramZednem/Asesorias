@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #121212;
+    display: flex;
+  }
+  
+  .app {
+    display: flex;
+  }
+  
+  /* Aplica un margen al contenido principal para evitar que se superponga con la sidebar */
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+}
